@@ -1,0 +1,3745 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<dcSummary version="1.0.0" xsi:noNamespaceSchemaLocation="dcSummary.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<metaData>
+		<computerInfo>
+			<user>ikone</user>
+			<excelVersion>14.0</excelVersion>
+			<windowsVersion>Windows (32-bit) NT 6.01</windowsVersion>
+			<computerName>20171063-ALTEN</computerName>
+		</computerInfo>
+		<feData>
+			<exportDate>2018-629T12:12:58</exportDate>
+			<fePath>\\Fraswefil502.prod.altengroup.dir\RUP17-0071-AIRBUS_SEME_SEMS$\SEME\SEMEC\DC\PROD\OP Prod\Follow up\Follow-Up\Batches\BAW\In Progress\A320\B#127 BAW A320 0518\Frontend.BAW.3.2.3.xlsm</fePath>
+			<feVersion>3.2.3</feVersion>
+			<feBuild>523</feBuild>
+			<feDev activated="Faux"/>
+			<feBeta activated="Faux"/>
+			<feExternal activated="Faux"/>
+		</feData>
+	</metaData>
+	<data>
+		<batch id="127">
+			<program>A320</program>
+			<operator>BAW</operator>
+		</batch>
+		<aircraft msn="N01014">
+			<reportMonth month="2015-07">
+				<mpdTask split="1">
+					<finding activated="true">
+						<sum>1</sum>
+						<element type="PNR">1</element>
+						<element type="DTA">1</element>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2013-11">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+					<finding activated="true">
+						<sum>13</sum>
+						<element type="DTA">9</element>
+						<element type="ALR">4</element>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N01082">
+			<reportMonth month="2007-10">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>3</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2011-01">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>5</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2017-07">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>5</sum>
+					</finding>
+					<finding activated="true">
+						<sum>1</sum>
+						<element type="DTA">1</element>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2012-09">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N01115">
+			<reportMonth month="2010-10">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>5</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2017-05">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>6</sum>
+					</finding>
+					<finding activated="true">
+						<sum>1</sum>
+						<element type="FRM">1</element>
+						<element type="ALR">1</element>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2012-06">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N01118">
+			<reportMonth month="2007-10">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>3</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2011-04">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>5</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2017-09">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>7</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2012-11">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>2</sum>
+					</finding>
+					<finding activated="true">
+						<sum>2</sum>
+						<element type="DTA">2</element>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N01142">
+			<reportMonth month="2007-11">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>2</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2011-03">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>6</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2017-10">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>7</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2012-11">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N01177">
+			<reportMonth month="2014-06">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>7</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2017-10">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N01193">
+			<reportMonth month="2011-01">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>5</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2017-07">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>7</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2007-12">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+					<finding activated="true">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2012-10">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N01197">
+			<reportMonth month="2010-11">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>5</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2017-06">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>6</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2012-07">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>3</sum>
+					</finding>
+					<finding activated="true">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N01222">
+			<reportMonth month="2011-04">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>5</sum>
+					</finding>
+					<finding activated="true">
+						<sum>2</sum>
+						<element type="ALR">2</element>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2017-12">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>7</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2007-11">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2012-11">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N01225">
+			<reportMonth month="2010-11">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>5</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2017-05">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>7</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2012-08">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N01232">
+			<reportMonth month="2008-03">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>2</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2011-06">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>6</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2017-12">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>7</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2013-02">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>3</sum>
+					</finding>
+					<finding activated="true">
+						<sum>3</sum>
+						<element type="PNR">1</element>
+						<element type="DTA">1</element>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N01236">
+			<reportMonth month="2008-04">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>3</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2011-08">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+					<finding activated="true">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2017-11">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>6</sum>
+					</finding>
+					<finding activated="true">
+						<sum>3</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2013-03">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N01239">
+			<reportMonth month="2011-10">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>5</sum>
+					</finding>
+					<finding activated="true">
+						<sum>1</sum>
+						<element type="PNR">1</element>
+						<element type="ALR">1</element>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2017-12">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>7</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2008-05">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>2</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2013-05">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2018-01">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N01258">
+			<reportMonth month="2011-02">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>5</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2017-10">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>7</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2007-12">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>2</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2012-11">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N01261">
+			<reportMonth month="2012-01">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>6</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2008-10">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>2</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2013-08">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N01279">
+			<reportMonth month="2011-12">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>7</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2018-03">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>7</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2008-07">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N01295">
+			<reportMonth month="2011-11">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>6</sum>
+					</finding>
+					<finding activated="true">
+						<sum>1</sum>
+						<element type="PNR">1</element>
+						<element type="ALR">1</element>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2018-03">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>7</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2008-06">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2013-06">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N01329">
+			<reportMonth month="2011-10">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>7</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2018-03">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>7</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2008-07">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2013-05">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N01338">
+			<reportMonth month="2011-12">
+				<mpdTask split="1">
+					<finding activated="true">
+						<sum>3</sum>
+						<element type="PNR">1</element>
+						<element type="DTA">3</element>
+					</finding>
+					<finding activated="false">
+						<sum>5</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2018-05">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>6</sum>
+					</finding>
+					<finding activated="true">
+						<sum>8</sum>
+						<element type="DTA">5</element>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2008-10">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>2</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N01380">
+			<reportMonth month="2008-09">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>3</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2012-02">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>5</sum>
+					</finding>
+					<finding activated="true">
+						<sum>1</sum>
+						<element type="DTA">1</element>
+						<element type="ALR">1</element>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2013-08">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N01384">
+			<reportMonth month="2008-08">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>2</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2011-10">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>7</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2018-01">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>7</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2013-06">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N01418">
+			<reportMonth month="2014-02">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>3</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2015-11">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2017-04">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N01423">
+			<reportMonth month="2012-02">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>5</sum>
+					</finding>
+					<finding activated="true">
+						<sum>1</sum>
+						<element type="FRM">1</element>
+						<element type="RIB">1</element>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2008-11">
+				<mpdTask split="1">
+					<finding activated="true">
+						<sum>6</sum>
+						<element type="PNR">5</element>
+						<element type="ALR">6</element>
+					</finding>
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N01424">
+			<reportMonth month="2014-06">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>3</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2016-01">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2017-09">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N01440">
+			<reportMonth month="2012-04">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>7</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2009-02">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>2</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2014-01">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N01445">
+			<reportMonth month="2010-03">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+					<finding activated="true">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2013-03">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2017-12">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N01466">
+			<reportMonth month="2008-12">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>3</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2012-04">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>6</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N01482">
+			<reportMonth month="2017-03">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>5</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2015-07">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N01509">
+			<reportMonth month="2016-12">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>5</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2015-03">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N01510">
+			<reportMonth month="2012-07">
+				<mpdTask split="1">
+					<finding activated="true">
+						<sum>3</sum>
+						<element type="PNR">2</element>
+						<element type="DTA">2</element>
+						<element type="ALR">2</element>
+					</finding>
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2009-01">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+					<finding activated="true">
+						<sum>1</sum>
+						<element type="DTA">1</element>
+						<element type="ALR">1</element>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N01513">
+			<reportMonth month="2012-04">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>5</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2009-01">
+				<mpdTask split="1">
+					<finding activated="true">
+						<sum>3</sum>
+						<element type="DTA">1</element>
+						<element type="ALR">1</element>
+					</finding>
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2013-12">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>3</sum>
+					</finding>
+					<finding activated="true">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2010-08">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N01529">
+			<reportMonth month="2013-02">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>5</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2009-08">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>2</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2011-03">
+				<mpdTask split="1">
+					<finding activated="true">
+						<sum>3</sum>
+						<element type="ALR">1</element>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N01537">
+			<reportMonth month="2013-01">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>6</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2008-01">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2009-07">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>2</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2017-08">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N01558">
+			<reportMonth month="2008-01">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2013-02">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2009-09">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>2</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2014-07">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2017-10">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N01574">
+			<reportMonth month="2012-12">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>6</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2008-01">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2009-09">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+					<finding activated="true">
+						<sum>3</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N01590">
+			<reportMonth month="2009-09">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>3</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2013-01">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>9</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2018-02">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>5</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N01594">
+			<reportMonth month="2013-01">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2009-10">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>2</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2018-01">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>2</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2009-09">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N01604">
+			<reportMonth month="2010-05">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2013-09">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+					<finding activated="true">
+						<sum>2</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2017-02">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N01606">
+			<reportMonth month="2013-07">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>5</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2010-04">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>3</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2015-02">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2018-03">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N01613">
+			<reportMonth month="2017-02">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N01661">
+			<reportMonth month="2013-09">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>6</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2010-07">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>3</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2015-05">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2012-01">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2017-01">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2008-11">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N01665">
+			<reportMonth month="2008-03">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>5</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2014-10">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>5</sum>
+					</finding>
+					<finding activated="true">
+						<sum>3</sum>
+						<element type="DTA">3</element>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2011-07">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2016-05">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>2</sum>
+					</finding>
+					<finding activated="true">
+						<sum>3</sum>
+						<element type="DTA">3</element>
+						<element type="PNR">2</element>
+						<element type="RAP">1</element>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2018-01">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N01672">
+			<reportMonth month="2017-04">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>2</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N01687">
+			<reportMonth month="2013-12">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>6</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2010-09">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2017-03">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2015-07">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N01689">
+			<reportMonth month="2013-09">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>6</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2010-05">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>3</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2017-02">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N01690">
+			<reportMonth month="2013-09">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>12</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2017-01">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>3</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2015-05">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N01696">
+			<reportMonth month="2013-10">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>6</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2010-06">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>3</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2015-08">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>2</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2012-02">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2017-02">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2008-11">
+				<mpdTask split="1">
+					<finding activated="true">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N01708">
+			<reportMonth month="2008-05">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2014-12">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>6</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2011-09">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2016-06">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2018-02">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N01711">
+			<reportMonth month="2017-01">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>6</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2013-10">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2015-05">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N01754">
+			<reportMonth month="2014-04">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2011-01">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2015-12">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N01760">
+			<reportMonth month="2013-10">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2010-07">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>3</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2015-09">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>2</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2012-02">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2017-03">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2008-12">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N01771">
+			<reportMonth month="2017-03">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N01782">
+			<reportMonth month="2013-11">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>6</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2010-09">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2015-10">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>2</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2017-03">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2009-01">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N01804">
+			<reportMonth month="2017-02">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N01814">
+			<reportMonth month="2007-10">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>5</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2014-01">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2010-10">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2015-09">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N01829">
+			<reportMonth month="2007-11">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+					<finding activated="true">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2014-03">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>6</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2010-11">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>3</sum>
+					</finding>
+					<finding activated="true">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2015-10">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2017-04">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N01834">
+			<reportMonth month="2016-10">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>2</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2015-09">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2015-10">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2016-01">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2016-04">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2016-06">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2016-09">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2016-08">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2017-01">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2017-03">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2017-05">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2017-07">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2017-08">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2017-10">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2017-12">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2018-03">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2018-05">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N01871">
+			<reportMonth month="2008-02">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2014-10">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>6</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2011-07">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>3</sum>
+					</finding>
+					<finding activated="true">
+						<sum>2</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2016-05">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2018-01">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N01883">
+			<reportMonth month="2008-04">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2014-09">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>6</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2011-08">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>3</sum>
+					</finding>
+					<finding activated="true">
+						<sum>7</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2016-04">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2017-12">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N01892">
+			<reportMonth month="2015-08">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2015-09">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2015-11">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2016-02">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2016-04">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2016-06">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2016-08">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2016-09">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2016-11">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2017-02">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2017-04">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2017-06">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2017-08">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2017-10">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2018-01">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2018-03">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2016-12">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N01899">
+			<reportMonth month="2008-04">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2014-11">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>6</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2011-09">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>3</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2016-06">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2018-01">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2011-10">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>2</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N01902">
+			<reportMonth month="2016-10">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>2</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2015-08">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2015-10">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2015-11">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2016-05">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2016-02">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2016-06">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2016-07">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2016-08">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2017-01">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2017-03">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2017-05">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>2</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2017-07">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2017-08">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2017-10">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2017-12">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2018-03">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N01907">
+			<reportMonth month="2008-06">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2015-01">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>6</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2011-09">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2016-07">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2018-02">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N01910">
+			<reportMonth month="2008-05">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2014-10">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>6</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2011-08">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>5</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2016-05">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2018-01">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N01922">
+			<reportMonth month="2013-02">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>9</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N01958">
+			<reportMonth month="2008-11">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>3</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2015-04">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2012-03">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>3</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2016-12">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N01987">
+			<reportMonth month="2014-07">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>6</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2016-02">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>2</sum>
+					</finding>
+					<finding activated="true">
+						<sum>2</sum>
+						<element type="PNR">1</element>
+						<element type="DTA">2</element>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2017-10">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2013-03">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N02038">
+			<reportMonth month="2009-02">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>3</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2015-06">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>6</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2012-05">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2017-01">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>3</sum>
+					</finding>
+					<finding activated="true">
+						<sum>3</sum>
+						<element type="DTA">3</element>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N02040">
+			<reportMonth month="2009-02">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>3</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2015-08">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>6</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2012-07">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>3</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2017-04">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N02098">
+			<reportMonth month="2013-06">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>3</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2015-01">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>3</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N02188">
+			<reportMonth month="2017-03">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N02190">
+			<reportMonth month="2015-12">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>11</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2013-04">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2017-08">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>10</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2014-09">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>3</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N02194">
+			<reportMonth month="2014-01">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>3</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2015-10">
+				<mpdTask split="1">
+					<finding activated="true">
+						<sum>19</sum>
+						<element type="RIB">19</element>
+						<element type="ALR">19</element>
+					</finding>
+					<finding activated="false">
+						<sum>2</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N02305">
+			<reportMonth month="2010-10">
+				<mpdTask split="1">
+					<finding activated="true">
+						<sum>16</sum>
+						<element type="DTA">7</element>
+						<element type="ALR">1</element>
+					</finding>
+					<finding activated="false">
+						<sum>3</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2016-09">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>6</sum>
+					</finding>
+					<finding activated="true">
+						<sum>7</sum>
+						<element type="PNR">1</element>
+						<element type="ALR">4</element>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2009-03">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2018-03">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>5</sum>
+					</finding>
+					<finding activated="true">
+						<sum>2</sum>
+						<element type="ALR">2</element>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2012-06">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>2</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2015-09">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>2</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2014-01">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N02320">
+			<reportMonth month="2010-11">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>5</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2016-10">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>8</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2009-03">
+				<mpdTask split="1">
+					<finding activated="true">
+						<sum>6</sum>
+						<element type="DTA">6</element>
+						<element type="PNR">1</element>
+					</finding>
+					<finding activated="false">
+						<sum>3</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2018-04">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+					<finding activated="true">
+						<sum>1</sum>
+						<element type="ALR">1</element>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2012-07">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>2</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2015-11">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>2</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2014-03">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N02323">
+			<reportMonth month="2011-01">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>2</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2016-10">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>6</sum>
+					</finding>
+					<finding activated="true">
+						<sum>3</sum>
+						<element type="DTA">3</element>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2009-03">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2014-01">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+					<finding activated="true">
+						<sum>4</sum>
+						<element type="FRM">2</element>
+						<element type="DTA">2</element>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2018-04">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>5</sum>
+					</finding>
+					<finding activated="true">
+						<sum>2</sum>
+						<element type="FRM">2</element>
+						<element type="ALR">2</element>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2015-10">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>2</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N02324">
+			<reportMonth month="2010-11">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2016-11">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>6</sum>
+					</finding>
+					<finding activated="true">
+						<sum>1</sum>
+						<element type="PNR">1</element>
+						<element type="ALR">1</element>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2009-03">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2014-02">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>5</sum>
+					</finding>
+					<finding activated="true">
+						<sum>1</sum>
+						<element type="PNR">1</element>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2018-04">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>6</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2015-10">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>2</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N02351">
+			<reportMonth month="2010-12">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>5</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2016-12">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>6</sum>
+					</finding>
+					<finding activated="true">
+						<sum>12</sum>
+						<element type="ALR">12</element>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2014-04">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>5</sum>
+					</finding>
+					<finding activated="true">
+						<sum>1</sum>
+						<element type="DTA">1</element>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2009-03">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>3</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2012-07">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>2</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2015-12">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>2</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N02363">
+			<reportMonth month="2011-01">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>3</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2017-01">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>5</sum>
+					</finding>
+					<finding activated="true">
+						<sum>6</sum>
+						<element type="PNR">2</element>
+						<element type="ALR">6</element>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2009-04">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>3</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2012-09">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>2</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2015-12">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>2</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N02389">
+			<reportMonth month="2014-11">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>3</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2016-05">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>2</sum>
+					</finding>
+					<finding activated="true">
+						<sum>1</sum>
+						<element type="ALR">1</element>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2018-03">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N02429">
+			<reportMonth month="2016-06">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>3</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2018-04">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N02441">
+			<reportMonth month="2017-01">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>5</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2015-05">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N02466">
+			<reportMonth month="2014-11">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>3</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2016-11">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>6</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N02536">
+			<reportMonth month="2011-12">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>3</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2017-07">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>10</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2015-03">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>5</sum>
+					</finding>
+					<finding activated="true">
+						<sum>8</sum>
+						<element type="PNR">1</element>
+						<element type="DTA">8</element>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2008-07">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>2</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2010-03">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>3</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2016-11">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N02653">
+			<reportMonth month="2014-04">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>2</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2015-12">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>8</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2017-07">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>9</sum>
+					</finding>
+					<finding activated="true">
+						<sum>3</sum>
+						<element type="DTA">3</element>
+						<element type="PNR">1</element>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N02694">
+			<reportMonth month="2015-07">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>3</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2017-05">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>7</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N02697">
+			<reportMonth month="2016-02">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>3</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2017-10">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>5</sum>
+					</finding>
+					<finding activated="true">
+						<sum>4</sum>
+						<element type="ALR">1</element>
+						<element type="DTA">2</element>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N02720">
+			<reportMonth month="2016-01">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>3</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2018-03">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>7</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N02799">
+			<reportMonth month="2013-05">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2016-03">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>8</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2017-11">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>6</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2013-03">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+					<finding activated="true">
+						<sum>2</sum>
+						<element type="PNR">1</element>
+						<element type="DTA">2</element>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2014-08">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>3</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N02981">
+			<reportMonth month="2016-10">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>3</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N03049">
+			<reportMonth month="2016-07">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>3</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2018-04">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>7</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N03081">
+			<reportMonth month="2013-11">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2012-03">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>5</sum>
+					</finding>
+					<finding activated="true">
+						<sum>2</sum>
+						<element type="DTA">2</element>
+						<element type="ALR">2</element>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2017-03">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>5</sum>
+					</finding>
+					<finding activated="true">
+						<sum>1</sum>
+						<element type="PNR">1</element>
+						<element type="DTA">1</element>
+						<element type="ALR">1</element>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2008-11">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>2</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2010-07">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>2</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N03089">
+			<reportMonth month="2018-02">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>9</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N03235">
+			<reportMonth month="2014-01">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>3</sum>
+					</finding>
+					<finding activated="true">
+						<sum>2</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2012-06">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>7</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2017-03">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>5</sum>
+					</finding>
+					<finding activated="true">
+						<sum>3</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2009-01">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>2</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N03254">
+			<reportMonth month="2014-03">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2012-07">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>6</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2017-06">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>7</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2009-04">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+					<finding activated="true">
+						<sum>1</sum>
+						<element type="DTA">1</element>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2010-10">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>2</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2015-11">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>2</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N03290">
+			<reportMonth month="2014-05">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>3</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2012-10">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>6</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2017-08">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>6</sum>
+					</finding>
+					<finding activated="true">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2009-06">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>2</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2011-02">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>2</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2016-01">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+					<finding activated="true">
+						<sum>1</sum>
+						<element type="DTA">1</element>
+						<element type="ALR">1</element>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N03301">
+			<reportMonth month="2014-03">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>2</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2012-06">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>3</sum>
+					</finding>
+					<finding activated="true">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2017-04">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N03314">
+			<reportMonth month="2014-04">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>2</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2012-10">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>3</sum>
+					</finding>
+					<finding activated="true">
+						<sum>2</sum>
+						<element type="PNR">1</element>
+						<element type="DTA">2</element>
+						<element type="ALR">1</element>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2017-05">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N03351">
+			<reportMonth month="2014-05">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>2</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2012-12">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2018-01">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2017-09">
+				<mpdTask split="1">
+					<finding activated="true">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N03468">
+			<reportMonth month="2014-05">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>2</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2012-12">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2018-01">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>3</sum>
+					</finding>
+					<finding activated="true">
+						<sum>1</sum>
+						<element type="PNR">1</element>
+						<element type="DTA">1</element>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2017-09">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N03499">
+			<reportMonth month="2014-12">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2013-04">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2018-02">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N03512">
+			<reportMonth month="2014-08">
+				<mpdTask split="1">
+					<finding activated="true">
+						<sum>2</sum>
+						<element type="PNR">1</element>
+						<element type="CPI">1</element>
+						<element type="DTA">1</element>
+					</finding>
+					<finding activated="false">
+						<sum>3</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2017-10">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>9</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2016-03">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>2</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N03550">
+			<reportMonth month="2015-01">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2013-06">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>3</sum>
+					</finding>
+					<finding activated="true">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2018-03">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N03607">
+			<reportMonth month="2015-03">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2013-07">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N03649">
+			<reportMonth month="2015-03">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2013-07">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N03697">
+			<reportMonth month="2015-05">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2013-09">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N03703">
+			<reportMonth month="2015-06">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2013-09">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N03721">
+			<reportMonth month="2015-06">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2013-10">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>3</sum>
+					</finding>
+					<finding activated="true">
+						<sum>1</sum>
+						<element type="PNR">1</element>
+						<element type="DTA">1</element>
+						<element type="ALR">1</element>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N03726">
+			<reportMonth month="2015-07">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2013-11">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N03912">
+			<reportMonth month="2015-09">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2014-02">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N03926">
+			<reportMonth month="2013-08">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>9</sum>
+					</finding>
+					<finding activated="true">
+						<sum>2</sum>
+						<element type="DTA">1</element>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2015-04">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+					<finding activated="true">
+						<sum>2</sum>
+						<element type="PNR">1</element>
+						<element type="ALR">1</element>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2016-12">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>2</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N04185">
+			<reportMonth month="2016-06">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2014-10">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2018-01">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>2</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N04238">
+			<reportMonth month="2016-10">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2015-02">
+				<mpdTask split="1">
+					<finding activated="true">
+						<sum>2</sum>
+						<element type="DTA">2</element>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N04265">
+			<reportMonth month="2016-08">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>2</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2015-02">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N04306">
+			<reportMonth month="2016-11">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2015-03">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N04464">
+			<reportMonth month="2017-06">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>3</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2015-10">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N04551">
+			<reportMonth month="2017-09">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>3</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2016-01">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N04725">
+			<reportMonth month="2017-12">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>3</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2016-04">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N04791">
+			<reportMonth month="2017-12">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>3</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2016-04">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>3</sum>
+					</finding>
+					<finding activated="true">
+						<sum>2</sum>
+						<element type="PNR">2</element>
+						<element type="DTA">2</element>
+						<element type="ALR">2</element>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N04975">
+			<reportMonth month="2016-10">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N05634">
+			<reportMonth month="2017-02">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N05784">
+			<reportMonth month="2017-05">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>2</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N05856">
+			<reportMonth month="2017-05">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>2</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N05948">
+			<reportMonth month="2017-09">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>2</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N05985">
+			<reportMonth month="2017-10">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>2</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N06028">
+			<reportMonth month="2017-11">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>2</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N06091">
+			<reportMonth month="2018-01">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>2</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N06129">
+			<reportMonth month="2018-02">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>2</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="N06155">
+			<reportMonth month="2018-02">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>2</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+	</data>
+</dcSummary>

@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+
+
+{% block content%}
+
+<div class="margin-top30">
+    <a href="/home-page"><img width="30" height="30" src="../static/home.png" alt="HOME"></a>
+    <a href="/take-batch"><h5 class="black-text" style="display:inline;position:relative;right:-0.5em;bottom:0.3em;">Take a new Batch</h5></a>
+</div>
+
+
+
+  
+<form action="/assign-batch" method="post" class="margin-top100">
+  <div class="row">
+    <div class="col xl12">
+      <label>*Optional: Insert an unassigned BatchID (If you don't insert a BatchID one random unassigned Batch wil be given to you)</label>
+      <input type="text" name="batchid" placeholder="Ex: itjUTj">
+    </div>
+  </div>
+  <div class="center-align">
+    <p>
+     <label>
+       <input name="assignedtoProofreader" type="checkbox" class="filled-in" {{context.disableCheckbox}}/>
+       <span>take batch to proofread</span>
+     </label>
+   </p>
+  </div>
+
+  <div class="center-align">
+    <button class="btn-large waves-effect waves-light margin-top50" type="submit" name="submit">Assign a Batch to me</button>
+  </div>
+
+</form>
+
+
+
+
+<!--Go back to previous page link -->
+<div class="container">
+  <a style="position:fixed;bottom:0px;right:0px;" href="javascript:history.back()">
+    <img src="../static/back.png" alt="BACK">
+  </a>
+</div>
+
+{% endblock %}

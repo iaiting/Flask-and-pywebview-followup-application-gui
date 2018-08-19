@@ -1,0 +1,64 @@
+{% extends 'base.html' %}
+
+
+{% block content%}
+
+<div class="margin-top30">
+    <a href="/home-page"><img width=30 height=30 src="../static/home.png" alt="HOME"></a>
+    <a href="/view-batches"><h5 class="black-text" style="display:inline;position:relative;right:-0.5em;bottom:0.3em;">View Batches</h5></a>
+</div>
+
+
+</br>
+
+<div class="row">
+  <div class="col xl6">
+    <input type="text" id="searchfor" onkeyup="filterColumnsTable()" placeholder="Search for BatchID">
+  </div>
+  <div class="col xl6">
+    <a class="btn-flat" href="/extract-followup">Extract follow-up</a>
+  </div>
+</div>
+
+<table class="highlight" id="table">
+  <thead>
+    <tr>
+      <th>BID</th>
+      <th>Op</th>
+      <th>AC</th>
+      <th>Responsible</th>
+      <th>RespStatus</th>
+      <th>Proofreader</th>
+      <th>ProofStatus</th>
+      <th>RespComm</th>
+      <th>ProofComm</th>
+      <th>OverallStatus</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    {% for bid in context['BatchID'] %}
+      <tr>
+        <td><a href="/update-batch/{{bid}}">{{bid}}</a></td>
+        <td>{{context['Operator'][loop.index0]}}</td>
+        <td>{{context['Aircraft'][loop.index0]}}</td>
+        <td>{{context['Responsible'][loop.index0]}}</td>
+        <td>{{context['ResponsibleStatus'][loop.index0]}}</td>
+        <td>{{context['Proofreader'][loop.index0]}}</td>
+        <td>{{context['ProofreaderStatus'][loop.index0]}}</td>
+        <td>{{context['ResponsibleComment'][loop.index0]}}</td>
+        <td>{{context['ProofreaderComment'][loop.index0]}}</td>
+        <td>{{context['OverallStatus'][loop.index0]}}</td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<!--Go back to previous page link -->
+<div class="container">
+  <a style="position:fixed;bottom:0px;right:0px;" href="javascript:history.back()">
+    <img src="../static/back.png" alt="BACK">
+  </a>
+</div>
+
+{% endblock %}
