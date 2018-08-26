@@ -8,7 +8,5 @@ A flask app using sqlite3, optional pywebview, that keeps track of batches (pack
 ![2018-08-26 21_46_13-followup-dc](https://user-images.githubusercontent.com/9250009/44631819-f452bc80-a979-11e8-9b48-d59b4367f3c2.png)
 
 #Manage users, add remove users<br/>
-![2018-08-26 21_46_33-followup-dc](https://user-images.githubusercontent.com/9250009/44631820-f61c8000-a979-11e8-9c14-00ecbfe3fe09.png)
 #Import export from sqlite3 db tables that's for big changes you want to make to the database<br/> 
-
 ![2018-08-26 21_46_53-followup-dc](https://user-images.githubusercontent.com/9250009/44631821-fa489d80-a979-11e8-9aa2-c645be2642d8.png)
