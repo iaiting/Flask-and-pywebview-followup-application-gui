@@ -1,9 +1,12 @@
 # Flask-and-pywebview-followup-application-gui
 A flask app using sqlite3, optional pywebview, that keeps track of batches (package of work) 
 
-Login page
+#Login page<br/>
+
 ![2018-08-26 21_44_34-followup-dc](https://user-images.githubusercontent.com/9250009/44631815-ec931800-a979-11e8-8a9e-6b81652bdf73.png)
-Main route page
+
+#Main route page<br/>
+
 ![2018-08-26 21_45_14-followup-dc](https://user-images.githubusercontent.com/9250009/44631816-ef8e0880-a979-11e8-9ca9-6a585ce77727.png)
 
 ![2018-08-26 21_45_40-followup-dc](https://user-images.githubusercontent.com/9250009/44631818-f1f06280-a979-11e8-8309-0f8cc1a673ce.png)
