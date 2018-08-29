@@ -1,0 +1,59 @@
+{% extends 'base.html' %}
+
+{% block content%}
+<a href="/create-new-batch"><h5 class="animated fadeIn black-text" >| Create a new Batch</h5></a>
+
+
+</br></br>
+
+
+
+  <form action="/upload-create-batch" method="post" enctype="multipart/form-data">
+    <div class="row">
+    <div class="col s12">
+      <label>Insert the Operator's name</label>
+      <input type="text" name="operator" placeholder="ex: TCX, BZI etc.." style="text-transform: uppercase">
+    </div>
+    <div class="col s12">
+        <select class="browser-default margin-top30" name="aircraft">
+          <option value="" default selected>Select Aircraft type</option>
+          {% for option in context.aircraft %}
+            <option value="{{option}}">{{option}}</option>
+          {% endfor %}
+        </select>
+    </div>
+    </div>
+    <div class="row">
+      <div class="col s12 margin-top30">
+        <div class="file-field">
+          <div class="btn-small green lighten-3">
+            <span>Browse files</span>
+            <input type="file" name="files2upload" multiple>
+          </div>
+          <div class="file-path-wrapper">
+            <input class="file-path validate" type="text" placeholder="Upload one or more files">
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="center-align">
+      <button class="btn-large waves-effect waves-light margin-top50" type="submit" name="submit">Upload & Create a new batch</button>
+    </div>
+  </form>
+
+
+<div class="center-align">
+  <a href="/auto-create-unassigned" class="btn-flat waves-effect waves-light margin-top50">Auto-Create New Batches</a>
+</div>
+
+
+<!--Go back to previous page link -->
+<div class="container">
+  <a style="position:fixed;bottom:0px;right:0px;" href="javascript:history.back()">
+    <img src="../static/back.png" alt="BACK">
+  </a>
+</div>
+
+{% endblock %}
