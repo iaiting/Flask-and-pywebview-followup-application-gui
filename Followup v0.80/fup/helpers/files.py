@@ -141,7 +141,7 @@ def autoNewDirs():
     tobinli = []
     for opac, vdict in filesinfodict.items():
         #similar to uploadFilesCreateBatch, but without flask file object
-        print("Operator - Aircraft: ", opac)
+        print("\nProcessing {}..".format(opac))
         batchID = generateID()
         operator = opac.split(' ')[0]
         aircraft = opac.split(' ')[1]
@@ -180,6 +180,7 @@ def autoNewDirs():
             save_path = os.path.join(path, newFileName)
 
             try:
+                print("Copying this file:\n{}\nto this path:\n{}".format(filepath, save_path))
                 shutil.copy2(filepath, save_path)
                 filesnameli.append(filename)
                 fileIDli.append(fileid)
@@ -204,7 +205,7 @@ def autoNewDirs():
 
         infoDictli.append(infoaddDict)
 
-    print("yuhuuu infoDictli, auto, tobinli", infoDictli, auto, tobinli)
+    print("Info about:\ninfoDictli:\n{}\n, auto:\n{}\n, tobinli:\n{}\n".format(infoDictli, auto, tobinli))
     return infoDictli, auto, tobinli
 
 
