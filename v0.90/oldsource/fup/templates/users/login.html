@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+
+{% block content%}
+</br></br>
+<div class="center-align">
+  <a href="#"><h5 class="animated fadeIn black-text">Enter your credentials</h5></a>
+</div>
+
+</br></br></br>
+
+<form action="/delegate-page" method="post">
+  <div class="container">
+    <label for="u">Insert your username:</label>
+    <input type="text" id="u" name="username" placeholder="Ex: alin.climente or francois.carre" required="" aria-required="true">
+    </br>
+    <label for="p">Insert your password</label>
+    <input type="password" id="p" name="password" placeholder="Email admins if you don't remember" required="" aria-required="true">
+  </div>
+  </br></br>
+  <div class="center-align">
+    <button class="btn-large waves-effect waves-light" type="submit" name="submit">Login</button>
+  </div>
+</form>
+
+
+
+{% endblock %}
