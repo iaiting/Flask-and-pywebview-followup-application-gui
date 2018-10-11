@@ -1,0 +1,159 @@
+{% extends 'base.html' %}
+
+{% block content%}
+
+<div class="margin-top20">
+    <a href="/home-page"><img width="30" height="30" src="../static/home.png" alt="HOME"></a>
+    <a href="/update-batch"><h5 class="black-text" style="display:inline;position:relative;right:-0.5em;bottom:0.3em;">Update Batches</h5></a>  
+</div>
+
+
+<div class="row">
+  <div class="col s2">
+      <p>Operator: {{context['infoBatch']['Operator'][0]}}</p>  
+  </div>
+  <div class="col s2">
+      <p>Program: {{context['infoBatch']['Aircraft'][0]}}</p>  
+  </div>
+  <div class="col s2">
+      <p>OverallStatus: {{context['infoBatch']['OverallStatus'][0]}}</p>  
+  </div>
+  <div class="col s2">
+      <p>AddedDate: {{context['infoBatch']['AddedDate'][0]}}</p>  
+  </div>
+  <div class="col s2">
+      <p>StartDate: {{context['infoBatch']['StartDate'][0]}}</p>  
+  </div>
+  <div class="col s2">
+      <p>ImportedDate: {{context['infoBatch']['ImportedDateISAIM'][0]}}</p>  
+  </div>
+</div>
+
+
+
+<form class="margin-top50" action="/apply-update-batch" method="post" enctype="multipart/form-data">
+  <div class="row">
+    <div class="col xl5">
+      <input type="text" value="{{context.batchlink}}"  name="batchid" placeholder="BatchID or* MERGE:BID1,BID2, ..etc" required="" aria-required="true">
+    </div>
+    <div class="col xl7">
+      <div class="file-field">
+        <div class="btn-small green lighten-3">
+          <span>*Browse files</span>
+          <input type="file" name="files2upload" multiple>
+        </div>
+        <div class="file-path-wrapper">
+          <input class="file-path validate" type="text" placeholder="Add files to batch">
+        </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col xl4 margin-top20">
+      <select class="browser-default" name="responsibleStatus">
+        <option value="" default selected>Responsible Status</option>
+        {% for option in context.responsibleStatus %}
+          <option value="{{option}}">{{option}}</option>
+        {% endfor %}
+      </select>
+    </div>
+
+    <div class="col xl4 margin-top20">
+      <select class="browser-default" name="proofreaderStatus">
+        <option value="" default selected>Proofreader Status</option>
+        {% for option in context.proofreaderStatus %}
+          <option value="{{option}}">{{option}}</option>
+        {% endfor %}
+      </select>
+    </div>
+
+    <div class="col xl4 margin-top20">
+      <select class="browser-default" name="overallStatus">
+        <option value="" default selected>Overall Status</option>
+        {% for option in context.overallStatus %}
+          <option value="{{option}}">{{option}}</option>
+        {% endfor %}
+      </select>
+    </div>
+
+
+  <div class="col xl4 margin-top20">
+    <select class="browser-default" name="aircraft">
+      <option value="" default selected>Aircraft</option>
+      {% for option in context.aircraft %}
+        <option value="{{option}}">{{option}}</option>
+      {% endfor %}
+    </select>
+  </div>
+
+
+    <div class="col xl4 margin-top20">
+      <select class="browser-default" name="splitBatch">
+        <option value="" default selected>*Split Batch Factor</option>
+        {% for option in context.splitBatch %}
+          <option value="{{option}}">Split Batch in {{option}} parts</option>
+        {% endfor %}
+      </select>
+    </div>
+
+    <div class="col xl4 margin-top20">
+      <select class="browser-default" name="reAssignBatch">
+        <option value="" default selected>(Re)Assign Batch to</option>
+        <!-- <option value="UNASSIGNED">Set batch to **UNASSIGNED</option> -->
+        {% for option in context.allusers %}
+          <option value="{{option}}">{{option}}</option>
+        {% endfor %}
+      </select>
+    </div>
+  </div>
+
+  <!--Responsible/Proofreader comments -->
+  <div class="row">
+    <div class="col xl3 margin-top10">
+      <label>Estimated Tasks number</label>
+      <input type="number" name="aproxtasknr" pattern="[0-9]">
+    </div>
+    <div class="col xl3 margin-top10">
+      <label>Estimated Findings number</label>
+      <input type="number" name="aproxfdgnr" pattern="[0-9]">
+    </div>
+    <div class="col xl6 margin-top10">
+      <label>Comments</label>
+      <input type="text" name="comments">
+    </div>
+  </div>
+
+
+  <div class="center-align">
+    <button class="btn-large waves-effect waves-light margin-top30" type="submit" name="submit">Apply changes</button>
+  </div>
+</form>
+
+<div class="center-align margin-top20">
+  <div class="row">
+    <div class="col xl12">
+        <a class="waves-effect waves-light btn-flat"  href="/extract-your-batches">Extract your Batches</a>
+    </div>
+    <div class="col xl12">
+        <a class="waves-effect waves-light btn-flat" href="/view-batches">View Batches</a>
+    </div>
+  </div>
+</div>
+
+
+
+
+<p style="position:fixed;bottom:0px;left:0px;" class="grey-text">
+*Only the selected option will be applyed, the rest will be ignored.</br>**All files and folders will be moved to another folder!
+</p>
+
+
+<!--Go back to previous page link -->
+<div class="container">
+  <a style="position:fixed;bottom:0px;right:0px;" href="javascript:history.back()">
+    <img src="../static/back.png" alt="BACK">
+  </a>
+</div>
+
+
+{% endblock %}
