@@ -1,0 +1,28 @@
+Install Golang on Ubuntu
+
+
+#Go to golang.org and download the version for linux
+
+#Change to directory where you've installed and extract the archive with
+tar -C /usr/local -xzf go1.11.linux-amd64.tar.gz (< name of the tar file)
+
+#Add environments variables for bin and GOPATH
+sudo -H gedit /etc/environment
+
+WARNING - DON'T DELETE ANY OF THE PATHS IN THIS FILE!! 
+
+
+PATH="bla:bla:bla:/usr/local/go/bin" < as you can see the last one is the path to go bin (here the separator is : in windows ;)
+
+#You need to give the full path to GOPATH folder (the folder where you will make stuff in go)
+
+#To find out the full path cd to folder where you want the GOPATH and type
+pwd
+
+
+#Type that path in the GOPATH variable like bellow 
+
+GOPATH="/home/alinclimente/Documents/working_go"
+
+#Check the installation
+go version

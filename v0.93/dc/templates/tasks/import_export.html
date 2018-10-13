@@ -1,0 +1,93 @@
+{% extends 'base.html' %}
+
+
+{% block content%}
+
+<div class="margin-top30">
+    <a href="/home-page"><img width="30" height="30" src="../static/home.png" alt="HOME"></a>
+    <a href="/import-export"><h5 class="black-text" style="display:inline;position:relative;right:-0.5em;bottom:0.3em;">Import/export tables</h5></a>
+</div>
+
+
+</br></br>
+
+<div class="row">
+    <div class="col xl4">
+            <a class="waves-effect waves-light btn green"  href="/extract-followup">Extract followup.xlsx</a>
+        </div>
+        <div class="col xl8">
+            <p>You will find in "excels exported" folder, file "followup.xlsx" with all the columns.</p>
+    </div>
+</div>
+            
+    
+<div class="row">
+    <div class="col xl4">
+        <a class="waves-effect waves-light btn green" href="/extract-fileshistory">Extract fileshistory.xlsx</a>    
+    </div>
+    <div class="col xl8">
+        <p>You will find in "excels exported" folder, file "fileshistory.xlsx" with all the columns.</p>
+    </div>
+</div>
+
+
+<div class="row">
+    <div class="col xl4">
+            <a class="waves-effect waves-light btn green"  href="/extract-users">Extract users.xlsx</a>
+        </div>
+        <div class="col xl8">
+            <p>You will find in "excels exported" folder, file "users.xlsx" with all the columns.</p>
+    </div>
+</div>
+
+
+<div class="row">
+    <div class="col xl4">
+        <a class="waves-effect waves-light btn indigo" href="/import-followup" {{context.tag_status}}>Import followup.xlsx</a>
+    </div>
+    <div class="col xl8">
+        <p>Make sure you have in "excels to be imported" folder, file "followup.xlsx" with all the columns.</p>
+    </div>
+</div>
+
+
+<div class="row">
+    <div class="col xl4">
+        <a class="waves-effect waves-light btn indigo"  href="/import-fileshistory" {{context.tag_status}}>Import fileshistory.xlsx</a>
+    </div>
+    <div class="col xl8">
+        <p>Make sure you have in "excels to be imported" folder, file "fileshistory.xlsx" with all the columns.</p>
+    </div>
+</div>
+    
+
+<div class="row">
+    <div class="col xl4">
+        <a class="waves-effect waves-light btn indigo"  href="/import-users" {{context.tag_status}}>Import users.xlsx</a>
+    </div>
+    <div class="col xl8">
+        <p>Make sure you have in "excels to be imported" folder, file "users.xlsx" with all the columns.</p>
+    </div>
+</div>
+
+
+
+<div class="card-panel red lighten-1">
+    <span class="white-text">Be aware! For the "IMPORT" functions, table from database will be replaced by the table from the excel file you imported.</span>
+</div>
+      
+
+
+{% endblock %}
+
+
+
+
+
+
+
+
+
+
+
+  

@@ -1,0 +1,60 @@
+###########
+2018-10-13 17:16:24.486602
+ERROR:
+File 'InstallGoOnUbuntu.txt' was added before in batch 'rnLKyR'
+
+Details:
+Traceback (most recent call last):
+  File "/home/alinclimente/Documents/working_python/Flask-and-pywebview-followup-application-gui-master/v0.92/dc/views/batches.py", line 16, in generateBatch
+    bid_created = batch.add_batch()
+  File "/home/alinclimente/Documents/working_python/Flask-and-pywebview-followup-application-gui-master/v0.92/dc/models/batches.py", line 155, in add_batch
+    batch_info_fileshistory = self.prepare_fileshistory_info(batch_info_followup, files_info)
+  File "/home/alinclimente/Documents/working_python/Flask-and-pywebview-followup-application-gui-master/v0.92/dc/models/batches.py", line 128, in prepare_fileshistory_info
+    self.check_file_history(file_info)
+  File "/home/alinclimente/Documents/working_python/Flask-and-pywebview-followup-application-gui-master/v0.92/dc/models/batches.py", line 112, in check_file_history
+    raise Exception("File '{}' was added before in batch '{}'".format(df_name["FileName"].tolist()[0], df_name["AddedInBatch"].tolist()[0]))
+Exception: File 'InstallGoOnUbuntu.txt' was added before in batch 'rnLKyR'
+
+###########
+
+
+###########
+2018-10-13 17:16:28.169779
+ERROR:
+File 'InstallGoOnUbuntu.txt' was added before in batch 'rnLKyR'
+
+Details:
+Traceback (most recent call last):
+  File "/home/alinclimente/Documents/working_python/Flask-and-pywebview-followup-application-gui-master/v0.92/dc/views/batches.py", line 16, in generateBatch
+    bid_created = batch.add_batch()
+  File "/home/alinclimente/Documents/working_python/Flask-and-pywebview-followup-application-gui-master/v0.92/dc/models/batches.py", line 155, in add_batch
+    batch_info_fileshistory = self.prepare_fileshistory_info(batch_info_followup, files_info)
+  File "/home/alinclimente/Documents/working_python/Flask-and-pywebview-followup-application-gui-master/v0.92/dc/models/batches.py", line 128, in prepare_fileshistory_info
+    self.check_file_history(file_info)
+  File "/home/alinclimente/Documents/working_python/Flask-and-pywebview-followup-application-gui-master/v0.92/dc/models/batches.py", line 112, in check_file_history
+    raise Exception("File '{}' was added before in batch '{}'".format(df_name["FileName"].tolist()[0], df_name["AddedInBatch"].tolist()[0]))
+Exception: File 'InstallGoOnUbuntu.txt' was added before in batch 'rnLKyR'
+
+###########
+
+
+###########
+2018-10-13 17:17:21.902196
+ERROR:
+File 'InstallGoOnUbuntu.txt' was added before in batch 'rnLKyR'
+
+Details:
+Traceback (most recent call last):
+  File "/home/alinclimente/Documents/working_python/Flask-and-pywebview-followup-application-gui-master/v0.92/dc/views/batches.py", line 16, in generateBatch
+    bid_created = batch.add_batch()
+  File "/home/alinclimente/Documents/working_python/Flask-and-pywebview-followup-application-gui-master/v0.92/dc/models/batches.py", line 155, in add_batch
+    batch_info_fileshistory = self.prepare_fileshistory_info(batch_info_followup, files_info)
+  File "/home/alinclimente/Documents/working_python/Flask-and-pywebview-followup-application-gui-master/v0.92/dc/models/batches.py", line 128, in prepare_fileshistory_info
+    self.check_file_history(file_info)
+  File "/home/alinclimente/Documents/working_python/Flask-and-pywebview-followup-application-gui-master/v0.92/dc/models/batches.py", line 112, in check_file_history
+    raise Exception("File '{}' was added before in batch '{}'".format(df_name["FileName"].tolist()[0], df_name["AddedInBatch"].tolist()[0]))
+Exception: File 'InstallGoOnUbuntu.txt' was added before in batch 'rnLKyR'
+
+###########
+
+

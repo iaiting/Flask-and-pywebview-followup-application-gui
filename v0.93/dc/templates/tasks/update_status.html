@@ -1,0 +1,97 @@
+{% extends 'base.html' %}
+
+{% block content%}
+
+<div class="margin-top20">
+    <a href="/home-page"><img width="30" height="30" src="../static/home.png" alt="HOME"></a>
+    <a href="/update-status"><h5 class="black-text" style="display:inline;position:relative;right:-0.5em;bottom:0.3em;">Update Status</h5></a>  
+</div>
+
+<div class="row">
+    <p>{{context.BatchID}}</p>
+    <a class="black-text right" href="/view-batches">View Batches</a>  
+</div>
+
+
+<form class="margin-top50" action="/update-batch-status" method="post">
+
+  <div class="row">
+
+    <div class="col s6">
+        <select class="browser-default" name="responsibleStatus">
+            <option value="" default selected>Responsible Status</option>
+            {% for option in context.status_user %}
+            <option value="{{option}}">{{option}}</option>
+            {% endfor %}
+          </select>
+    </div>
+   
+    <div class="col s6">
+        <select class="browser-default" name="proofreaderStatus">
+            <option value="" default selected>Proofreader Status</option>
+            {% for option in context.status_proofreader %}
+            <option value="{{option}}">{{option}}</option>
+            {% endfor %}
+        </select>
+    </div>
+   
+  </div>
+  
+  <div class="row">
+
+    <div class="col s6">
+        <select class="browser-default" name="overallStatus">
+            <option value="" default selected>Overall Status</option>
+            {% for option in context.status_overall %}
+              <option value="{{option}}">{{option}}</option>
+            {% endfor %}
+        </select>
+    </div>
+          
+    <div class="col s6">
+        <select class="browser-default" name="aircraft">
+            <option value="" default selected>Aircraft</option>
+            {% for option in context.aircrafts %}
+              <option value="{{option}}">{{option}}</option>
+            {% endfor %}
+        </select>
+    </div>
+
+  </div>
+  
+
+<div class="row">
+  <div class="col s3">
+      <label>Estimated Tasks number</label>
+      <input type="number" name="aproxtasknr" pattern="[0-9]">
+  </div>
+    
+
+  <div class="col s3">
+      <label>Estimated Findings number</label>
+      <input type="number" name="aproxfdgnr" pattern="[0-9]">
+  </div>
+    
+  <div class="col s6">
+      <label>Comments</label>
+      <input type="text" name="comments">
+  </div>
+</div>
+
+<div class="center-align">
+    <button class="btn-large waves-effect waves-light margin-top30" type="submit" name="submit">Apply changes</button>
+</div>
+
+</form>
+    
+    
+
+
+<!--Go back to previous page link -->
+<div class="container">
+  <a style="position:fixed;bottom:0px;right:0px;" href="javascript:history.back()">
+    <img src="../static/back.png" alt="BACK">
+  </a>
+</div>
+
+{% endblock %}

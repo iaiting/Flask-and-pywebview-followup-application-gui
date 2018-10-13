@@ -1,0 +1,23 @@
+Install Java8 on Ubuntu 18.04
+
+https://websiteforstudents.com/how-to-install-netbeans-on-ubuntu-16-04-17-10-18-04/
+
+
+#Add repo
+ sudo add-apt-repository ppa:webupd8team/java
+ 
+ #Update 
+ sudo apt update
+ 
+ #Install Java8
+ sudo apt install oracle-java8-installer
+ 
+ #Set Java8 as default
+ sudo apt install oracle-java8-set-default
+ 
+ #Check JDK install
+ javac -version
+ 
+ #Check JRE install 
+ java -version
+ 
