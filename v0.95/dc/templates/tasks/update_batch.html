@@ -1,0 +1,80 @@
+{% extends 'base.html' %}
+
+{% block content%}
+
+<div class="margin-top20">
+    <a href="/home-page"><img width="30" height="30" src="../static/home.png" alt="HOME"></a>
+    <a href="/update-batch-page"><h5 class="black-text" style="display:inline;position:relative;right:-0.5em;bottom:0.3em;">Update Batches</h5></a>  
+</div>
+
+<div class="row">
+    <a class="black-text right" href="/view-batches">View Batches</a>  
+</div>
+
+<div class="card-panel grey lighten-3 margin-bottom50">
+    <span class="black-text">
+      <table class="highlight">
+          <thead>
+            <tr>
+              <th>BID</th>
+              <th>Op</th>
+              <th>AC</th>
+              <th>AddedDate</th>
+              <th>StartDate</th>
+              <th>ImportedDate</th>
+              <th>OverallStatus</th>
+            </tr>
+          </thead>
+        
+          <tbody>
+              <tr>
+                <td>{{context['BatchID']}}</td>
+                <td>{{context['Operator']}}</td>
+                <td>{{context['Aircraft']}}</td>
+                <td>{{context['AddedDate']}}</td>
+                <td>{{context['StartDate']}}</td>
+                <td>{{context['ImportedDateISAIM']}}</td>
+                <td>{{context['OverallStatus']}}</td>
+              </tr>
+          </tbody>
+        </table>
+    </span>
+</div>
+  
+
+<div class="row">
+  <div class="col s6">
+    <a class="btn" href="/updatestatus">Status</a>
+    <p>Update status, estimates, comments</p>
+  </div>
+  <div class="col s6">
+    <a class="btn" href="/manipulate-batch/{{context['BatchID'][0]}}">Manipulate</a>
+    <p>Assign, split, add new files, merge</p>
+  </div>
+</div>
+
+
+
+<div class="row">
+  <div class="col s6">
+    <a class="btn" href="/extract-batches">Extract</a>
+    <p>Extract batches by using the predefined filters</p>  
+  </div>
+  <div class="col s6">
+    <a class="btn" href="/delete-batch/{{context['BatchID'][0]}}">Delete</a>
+    <p>Delete batch, delete file from history</p>  
+  </div>
+</div>
+
+
+
+
+<!--Go back to previous page link -->
+<div class="container">
+  <a style="position:fixed;bottom:0px;right:0px;" href="javascript:history.back()">
+    <img src="../static/back.png" alt="BACK">
+  </a>
+</div>
+
+
+{% endblock %}
