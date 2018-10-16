@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block content%}
+
+<div class="margin-top20">
+    <a href="/home-page"><img width="30" height="30" src="../static/home.png" alt="HOME"></a>
+    <a href="/update-status"><h5 class="black-text" style="display:inline;position:relative;right:-0.5em;bottom:0.3em;">Update Status</h5></a>  
+</div>
+
+
+
+<div class="row center-align">
+    <a class="btn grey lighten-3 black-text" href="#extractbatches">Extract Batches</a>
+</div>
+           
+
+    
+
+
+<!--Go back to previous page link -->
+<div class="container">
+  <a style="position:fixed;bottom:0px;right:0px;" href="javascript:history.back()">
+    <img src="../static/back.png" alt="BACK">
+  </a>
+</div>
+
+{% endblock %}
