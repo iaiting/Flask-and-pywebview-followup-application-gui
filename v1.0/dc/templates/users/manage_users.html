@@ -1,0 +1,119 @@
+{% extends 'base.html' %}
+
+
+{% block content%}
+
+
+<div class="margin-top30">
+    <a href="/home-page"><img width="30" height="30" src="../static/home.png" alt="HOME"></a>
+    <a href="/manage-users"><h5 class="black-text" style="display:inline;position:relative;right:-0.5em;bottom:0.3em;">Manage users</h5></a>
+</div>
+
+
+</br></br>
+
+
+<div class="row" id="tohide">
+  <form class="col s12" action="/users-management" method="post">
+    
+    <div class="col s4">
+      <label>Type the user name</label>
+      <input type="text" name="user_name" placeholder="ex: alin.climente, aclimente or aclimente-admin" required="" aria-required="true">
+    </div>
+    
+    <div class="col s4">
+      <label>Type the user email</label>
+      <input type="text" name="user_email" placeholder="ex: alin.climente@atexis.eu">
+    </div>
+
+    <div class="col s4">
+      <label>Type the user password</label>
+      <input type="text" name="user_password" placeholder="******">
+    </div>
+
+    <div class="col s12">
+      <label>Operation:</label>
+      <select class="browser-default" name="admin_choice" required="" aria-required="true">
+        <option value="" disabled selected>Choose: Add, Remove user</option>
+        <option value="add_user">Add user</option>
+        <option value="remove_user">Remove user</option>
+      </select>
+    </div>
+
+    <div class="col s12">
+      <label>Status:</label>
+      <select class="browser-default" name="user_rights">
+        <option value="" disabled selected>Choose: User, ProofReader or Admin</option>
+        <option value="user">User</option>
+        <option value="proofreader">Proofreader</option>
+        <option value="admin">Admin</option>
+      </select>
+    </div>
+
+    <div class="col s12">
+      <label>ProofReader:</label>
+      <select class="browser-default" name="defaultProofreader">
+        <option value="" default selected>Choose default ProofReader</option>
+        {% if context is defined %}
+          {% for option in context.proofreaders %}
+            <option value="{{option}}">{{option}}</option>
+          {% endfor %}
+        {% else %}
+          <option value="noproof">No proofreaders</option>
+        {% endif %}
+      </select>
+    </div>
+      
+    <div class="center-align">
+      <button style="margin-top:50px;" class="btn-large waves-effect waves-light" type="submit" name="submit">Apply changes</button>
+    </div>
+  </form>
+</div>
+
+<div class="center-align">
+  <button type="button" onclick="toggle('table_users');" class="btn-flat waves-effect waves-light">Show users</button>
+</div>
+
+<div id="table_users" class="invisible">
+  <table class="highlight margin-top50" id="myTable">
+    <thead>
+      <tr>
+        <th>User</th>
+        <th>Email</th>
+        <th>Password</th>
+        <th>Rights</th>
+        <th>Proofreader</th>
+      </tr>
+    </thead>
+    <tbody>
+    {% if context is defined %}
+      {% for i in range(context.all_users.User|length) %}
+        <tr>  
+            <td>{{context.all_users.User[loop.index0]}}</td>
+            <td>{{context.all_users.Email[loop.index0]}}</td>
+            <td>{{context.all_users.Password[loop.index0]}}</td>
+            <td>{{context.all_users.Rights[loop.index0]}}</td>
+            <td>{{context.all_users.Proofreader[loop.index0]}}</td>
+        </tr>
+      {% endfor %}
+    {% else %}
+      <tr>
+        <td>No users in the table</td>
+      </tr>
+    {% endif %}
+  
+    </tbody>
+  </table>
+</div>
+
+
+<!--Go back to previous page link -->
+<div class="container">
+  <a style="position:fixed;bottom:0px;right:0px;"  href="javascript:history.back()">
+    <img src="../static/back.png" alt="BACK">
+  </a>
+</div>
+
+
+
+{% endblock %}

@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+
+
+{% block content%}
+
+<div class="margin-top30">
+    <a href="/home-page"><img width=30 height=30 src="../static/home.png" alt="HOME"></a>
+    <a href="/view-files"><h5 class="black-text" style="display:inline;position:relative;right:-0.5em;bottom:0.3em;">View Files</h5></a>
+</div>
+
+
+</br>
+
+<div class="row">
+  <div class="col xl6">
+    <input type="text" id="searchfor" onkeyup="filterTable()" placeholder="Search..">
+  </div>
+  <div class="col xl6">
+    <a class="btn-flat" href="/extract-fileshistory">Extract fileshistory</a>
+  </div>
+</div>
+
+<table class="highlight" id="table">
+  <thead>
+    <tr>
+      <th>FileName</th>
+      <th>AddedInBatch</th>
+      <th>FileSize</th>
+      <th>ModificationDate</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    {% for fname in context['FileName'] %}
+      <tr>
+        <td>{{fname}}</td>
+        <td>{{context['AddedInBatch'][loop.index0]}}</td>
+        <td>{{context['FileSize'][loop.index0]}}</td>
+        <td>{{context['ModificationDate'][loop.index0]}}</td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<!--Go back to previous page link -->
+<div class="container">
+  <a style="position:fixed;bottom:0px;right:0px;" href="javascript:history.back()">
+    <img src="../static/back.png" alt="BACK">
+  </a>
+</div>
+
+{% endblock %}

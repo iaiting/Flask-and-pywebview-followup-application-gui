@@ -1,0 +1,189 @@
+{% extends 'base.html' %}
+
+{% block content%}
+
+<div class="margin-top20">
+    <a href="/home-page"><img width="30" height="30" src="../static/home.png" alt="HOME"></a>
+    <a href="/update-batch-page/{{context['BatchID_']}}"><h5 class="black-text" style="display:inline;position:relative;right:-0.5em;bottom:0.3em;">Update Batches</h5></a>  
+</div>
+
+
+<div class="card-panel grey lighten-4 margin-top60">
+    <span class="black-text">
+      <table class="highlight">
+          <thead>
+            <tr>
+              <th>BID</th>
+              <th>Op</th>
+              <th>AC</th>
+              <th>AddedDate</th>
+              <th>StartDate</th>
+              <th>ImportedDate</th>
+              <th>OverallStatus</th>
+            </tr>
+          </thead>
+        
+          <tbody>
+              <tr>
+                <td>{{context['BatchID_']}}</td>
+                <td>{{context['Operator_']}}</td>
+                <td>{{context['Aircraft_']}}</td>
+                <td>{{context['AddedDate_']}}</td>
+                <td>{{context['StartDate_']}}</td>
+                <td>{{context['ImportedDateISAIM_']}}</td>
+                <td>{{context['OverallStatus_']}}</td>
+              </tr>
+          </tbody>
+        </table>
+    </span>
+
+<!--Update status, estimates, comments, (re)assigned batch  -->
+<form class="margin-top50" action="/updatebatchstatus" method="post">
+
+  <div class="row">
+    <div class="col s4">
+        <select class="browser-default" name="responsibleStatus">
+            <option value="" default selected>Responsible Status</option>
+            {% for option in context.status_user %}
+            <option value="{{option}}">{{option}}</option>
+            {% endfor %}
+          </select>
+    </div>
+   
+    <div class="col s4">
+        <select class="browser-default" name="proofreaderStatus" {{context.disabled}}>
+            <option value="" default selected>Proofreader Status</option>
+            {% for option in context.status_proofreader %}
+            <option value="{{option}}">{{option}}</option>
+            {% endfor %}
+        </select>
+    </div>
+   
+
+    <div class="col s4">
+        <select class="browser-default" name="overallStatus" {{context.disabled}}>
+            <option value="" default selected>Overall Status</option>
+            {% for option in context.status_overall %}
+                <option value="{{option}}">{{option}}</option>
+            {% endfor %}
+        </select>
+    </div>
+  </div>
+  
+  <div class="row">
+
+    <div class="col s2">
+        <input id="et" type="number" name="estimatedtasks" pattern="[0-9]">
+        <label for="et">Estimated Tasks number</label>
+    </div>
+        
+    <div class="col s2">
+        <input id="ef" type="number" name="estimatedfindings" pattern="[0-9]">
+        <label for="ef">Estimated Findings number</label>
+    </div>
+                    
+    <div class="col s4">
+        <select class="browser-default" name="newproofreader" {{context.disabled}}>
+            <option value="" default selected>Change Proofreader</option>
+            {% for option in context.proofreaders %}
+              <option value="{{option}}">{{option}}</option>
+            {% endfor %}
+        </select>
+    </div>
+   
+    <div class="col s4">
+        <select class="browser-default" name="reAssignBatch" {{context.disabled}}>
+          <option value="" default selected>Assign Batch to</option>
+          {% for option in context.users %}
+            <option value="{{option}}">{{option}}</option>
+          {% endfor %}
+        </select>
+      </div>
+  </div>
+
+
+<div class="row">
+    
+  <div class="col s12">
+      <input id="c" type="text" name="comments">
+      <label for="c">Comments</label>
+  </div>
+</div>
+
+<div class="center-align">
+<div class="row">
+    <div class="col s12">
+        <button class="btn-large waves-effect waves-light margin-top30" type="submit" name="submit">Make update</button>
+    </div>
+    
+    <div class="col s12 margin-top20">
+        <div class="center-align">
+            <a class="btn grey lighten-5 grey-text" href="/view-batches">VIEW BATCHES</a> 
+        </div>
+
+        <div class="center-align margin-top20">
+        <a class="btn-small grey lighten-3 grey-text" href="/view-files">VIEW FILES</a> 
+        <button type="button" onclick="toggle('more_options');" class="btn-small grey lighten-3 grey-text">show more</button>
+        </div>
+    </div>
+</div>
+</div>
+
+</form>
+
+
+
+<div class="row">
+<div class="invisible" id="more_options">
+<div class="col s6">
+<!-- Delete batch from followup -->
+<form class="" action="/delete-batch" method="post">
+<div class="row">
+    <div class="col s10">
+        <select class="browser-default" name="batchtodelete">
+            <option value="" default selected>Select batch to delete</option>
+            {% for bid in context.BatchID %}
+            <option value="{{bid}}">{{context['Operator'][loop.index0]}}  {{context['Aircraft'][loop.index0]}} {{bid}}</option>
+            {% endfor %}
+        </select>
+    </div>
+    <div class="col s2">
+        <button class="btn waves-effect waves-light red" type="submit" name="submit" {{context.disabled}}>Delete</button>
+    </div>
+</div>
+</form>
+</div>
+
+
+<div class="col s6">
+<!-- Delete file from history -->
+<form class="" action="/delete-batch" method="post">
+<div class="row">
+    <div class="col s10">
+    <select class="browser-default" name="filetodelete">
+        <option value="" default selected>Select file to delete</option>
+        {% for filename in context.FileName %}
+        <option value="{{context['AddedInBatch'][loop.index0]}}//{{filename}}//{{context['FileSize'][loop.index0]}}">{{context['AddedInBatch'][loop.index0]}} - Name: {{filename}}  Size: {{context['FileSize'][loop.index0]}}</option>
+        {% endfor %}
+    </select>
+    </div>
+    <div class="col s2">
+    <button class="btn waves-effect waves-light red" type="submit" name="submit" {{context.disabled}}>Delete</button>
+    </div>
+</div>
+</form>
+</div>
+</div>
+</div>
+
+</div>
+
+<!--Go back to previous page link -->
+<div class="container">
+  <a style="position:fixed;bottom:0px;right:0px;" href="javascript:history.back()">
+    <img src="../static/back.png" alt="BACK">
+  </a>
+</div>
+
+
+{% endblock %}

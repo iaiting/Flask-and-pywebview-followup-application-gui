@@ -1,0 +1,986 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<dcSummary version="1.0.0" xsi:noNamespaceSchemaLocation="dcSummary.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<metaData>
+		<computerInfo>
+			<user>ikone</user>
+			<excelVersion>14.0</excelVersion>
+			<windowsVersion>Windows (32-bit) NT 6.01</windowsVersion>
+			<computerName>20171063-ALTEN</computerName>
+		</computerInfo>
+		<feData>
+			<exportDate>2018-720T12:05:05</exportDate>
+			<fePath>\\Fraswefil502.prod.altengroup.dir\RUP17-0071-AIRBUS_SEME_SEMS$\SEME\SEMEC\DC\PROD\OP Prod\Follow up\Follow-Up\Batches\SAS\In Progress\A340\B#132 SAS A340 0618\Frontend.SAS.3.2.3.xlsm</fePath>
+			<feVersion>3.2.3</feVersion>
+			<feBuild>523</feBuild>
+			<feDev activated="Faux"/>
+			<feBeta activated="Faux"/>
+			<feExternal activated="Faux"/>
+		</feData>
+	</metaData>
+	<data>
+		<batch id="132">
+			<program>A340</program>
+			<operator>SAS</operator>
+		</batch>
+		<aircraft msn="L00167">
+			<reportMonth month="2018-02">
+				<opeTask>
+					<finding activated="true">
+						<sum>16</sum>
+						<element type="DTA">2</element>
+						<element type="ALR">4</element>
+						<element type="EPC">1</element>
+						<element type="PNR">2</element>
+					</finding>
+					<finding activated="false">
+						<sum>70</sum>
+					</finding>
+				</opeTask>
+				<mpdTask split="2">
+					<finding activated="true">
+						<sum>1</sum>
+					</finding>
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>146</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2018-03">
+				<opeTask>
+					<finding activated="true">
+						<sum>31</sum>
+						<element type="DTA">8</element>
+						<element type="ALR">9</element>
+						<element type="EPC">3</element>
+						<element type="PNR">8</element>
+						<element type="CPI">1</element>
+					</finding>
+					<finding activated="false">
+						<sum>132</sum>
+					</finding>
+				</opeTask>
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>234</sum>
+					</finding>
+					<finding activated="true">
+						<sum>7</sum>
+						<element type="DTA">6</element>
+						<element type="ALR">1</element>
+					</finding>
+				</mpdTask>
+				<mpdTask split="4">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2018-04">
+				<opeTask>
+					<finding activated="true">
+						<sum>35</sum>
+						<element type="ALR">7</element>
+						<element type="PNR">7</element>
+						<element type="DTA">4</element>
+					</finding>
+					<finding activated="false">
+						<sum>75</sum>
+					</finding>
+				</opeTask>
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>152</sum>
+					</finding>
+				</mpdTask>
+				<mpdTask split="2">
+					<finding activated="false">
+						<sum>2</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2018-05">
+				<opeTask>
+					<finding activated="true">
+						<sum>51</sum>
+						<element type="ALR">9</element>
+						<element type="PNR">8</element>
+						<element type="DTA">5</element>
+						<element type="RAP">1</element>
+						<element type="EPC">1</element>
+					</finding>
+					<finding activated="false">
+						<sum>92</sum>
+					</finding>
+				</opeTask>
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>195</sum>
+					</finding>
+					<finding activated="true">
+						<sum>3</sum>
+						<element type="DTA">2</element>
+						<element type="ALR">1</element>
+					</finding>
+				</mpdTask>
+				<mpdTask split="2">
+					<finding activated="false">
+						<sum>2</sum>
+					</finding>
+				</mpdTask>
+				<mpdTask split="4">
+					<finding activated="true">
+						<sum>3</sum>
+						<element type="DTA">2</element>
+						<element type="ALR">3</element>
+						<element type="EPC">3</element>
+					</finding>
+					<finding activated="false">
+						<sum>6</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="L00413">
+			<reportMonth month="2018-02">
+				<opeTask>
+					<finding activated="true">
+						<sum>8</sum>
+						<element type="PNR">1</element>
+					</finding>
+					<finding activated="false">
+						<sum>35</sum>
+					</finding>
+				</opeTask>
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>86</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2018-03">
+				<opeTask>
+					<finding activated="true">
+						<sum>86</sum>
+						<element type="DTA">47</element>
+						<element type="ALR">29</element>
+						<element type="RAP">2</element>
+						<element type="EPC">7</element>
+						<element type="PNR">5</element>
+						<element type="FRM">1</element>
+					</finding>
+					<finding activated="false">
+						<sum>81</sum>
+					</finding>
+				</opeTask>
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>637</sum>
+					</finding>
+					<finding activated="true">
+						<sum>835</sum>
+						<element type="DTA">569</element>
+						<element type="ALR">350</element>
+						<element type="PNR">25</element>
+						<element type="EPC">87</element>
+						<element type="RAP">104</element>
+						<element type="FRM">100</element>
+						<element type="STR">2</element>
+						<element type="RIB">1</element>
+					</finding>
+				</mpdTask>
+				<mpdTask split="2">
+					<finding activated="true">
+						<sum>2</sum>
+						<element type="DTA">2</element>
+						<element type="ALR">2</element>
+					</finding>
+					<finding activated="false">
+						<sum>2</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2018-04">
+				<opeTask>
+					<finding activated="true">
+						<sum>33</sum>
+						<element type="PNR">6</element>
+						<element type="ALR">5</element>
+						<element type="RIB">1</element>
+						<element type="RAP">1</element>
+						<element type="DTA">4</element>
+						<element type="EPC">1</element>
+					</finding>
+					<finding activated="false">
+						<sum>141</sum>
+					</finding>
+				</opeTask>
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>250</sum>
+					</finding>
+					<finding activated="true">
+						<sum>6</sum>
+						<element type="DTA">4</element>
+						<element type="ALR">1</element>
+						<element type="PNR">1</element>
+					</finding>
+				</mpdTask>
+				<mpdTask split="4">
+					<finding activated="true">
+						<sum>2</sum>
+					</finding>
+					<finding activated="false">
+						<sum>7</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2018-05">
+				<opeTask>
+					<finding activated="true">
+						<sum>22</sum>
+						<element type="ALR">3</element>
+						<element type="DTA">1</element>
+					</finding>
+					<finding activated="false">
+						<sum>96</sum>
+					</finding>
+				</opeTask>
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>226</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="L00424">
+			<reportMonth month="2018-02">
+				<opeTask>
+					<finding activated="true">
+						<sum>37</sum>
+						<element type="PNR">4</element>
+						<element type="DTA">6</element>
+						<element type="ALR">6</element>
+						<element type="EPC">1</element>
+						<element type="RIB">1</element>
+					</finding>
+					<finding activated="false">
+						<sum>120</sum>
+					</finding>
+				</opeTask>
+				<mpdTask split="1">
+					<finding activated="true">
+						<sum>9</sum>
+						<element type="DTA">6</element>
+						<element type="ALR">3</element>
+						<element type="EPC">2</element>
+						<element type="CPI">1</element>
+					</finding>
+					<finding activated="false">
+						<sum>224</sum>
+					</finding>
+				</mpdTask>
+				<mpdTask split="2">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+				<mpdTask split="4">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2018-03">
+				<opeTask>
+					<finding activated="true">
+						<sum>30</sum>
+						<element type="PNR">3</element>
+						<element type="RAP">2</element>
+						<element type="DTA">4</element>
+						<element type="ALR">6</element>
+						<element type="EPC">2</element>
+						<element type="FRM">1</element>
+					</finding>
+					<finding activated="false">
+						<sum>133</sum>
+					</finding>
+				</opeTask>
+				<mpdTask split="1">
+					<finding activated="true">
+						<sum>11</sum>
+						<element type="DTA">6</element>
+						<element type="ALR">2</element>
+					</finding>
+					<finding activated="false">
+						<sum>258</sum>
+					</finding>
+				</mpdTask>
+				<mpdTask split="2">
+					<finding activated="false">
+						<sum>2</sum>
+					</finding>
+				</mpdTask>
+				<mpdTask split="4">
+					<finding activated="false">
+						<sum>8</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2018-04">
+				<opeTask>
+					<finding activated="true">
+						<sum>20</sum>
+						<element type="DTA">5</element>
+						<element type="ALR">1</element>
+						<element type="EPC">1</element>
+						<element type="CPI">1</element>
+					</finding>
+					<finding activated="false">
+						<sum>88</sum>
+					</finding>
+				</opeTask>
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>207</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2018-05">
+				<opeTask>
+					<finding activated="true">
+						<sum>51</sum>
+						<element type="ALR">10</element>
+						<element type="PNR">2</element>
+						<element type="EPC">3</element>
+						<element type="DTA">1</element>
+					</finding>
+					<finding activated="false">
+						<sum>147</sum>
+					</finding>
+				</opeTask>
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>261</sum>
+					</finding>
+					<finding activated="true">
+						<sum>3</sum>
+						<element type="DTA">3</element>
+						<element type="ALR">1</element>
+						<element type="EPC">1</element>
+					</finding>
+				</mpdTask>
+				<mpdTask split="4">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="L00430">
+			<reportMonth month="2018-02">
+				<opeTask>
+					<finding activated="true">
+						<sum>17</sum>
+						<element type="PNR">3</element>
+						<element type="ALR">3</element>
+						<element type="DTA">3</element>
+						<element type="EPC">2</element>
+					</finding>
+					<finding activated="false">
+						<sum>88</sum>
+					</finding>
+				</opeTask>
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>192</sum>
+					</finding>
+				</mpdTask>
+				<mpdTask split="2">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2018-03">
+				<opeTask>
+					<finding activated="true">
+						<sum>33</sum>
+						<element type="DTA">2</element>
+						<element type="PNR">6</element>
+						<element type="ALR">2</element>
+					</finding>
+					<finding activated="false">
+						<sum>129</sum>
+					</finding>
+				</opeTask>
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>266</sum>
+					</finding>
+					<finding activated="true">
+						<sum>6</sum>
+						<element type="DTA">4</element>
+					</finding>
+				</mpdTask>
+				<mpdTask split="4">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2018-04">
+				<opeTask>
+					<finding activated="true">
+						<sum>26</sum>
+						<element type="PNR">3</element>
+						<element type="DTA">5</element>
+						<element type="ALR">6</element>
+						<element type="EPC">3</element>
+					</finding>
+					<finding activated="false">
+						<sum>93</sum>
+					</finding>
+				</opeTask>
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>215</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2018-05">
+				<opeTask>
+					<finding activated="true">
+						<sum>32</sum>
+						<element type="PNR">5</element>
+						<element type="ALR">4</element>
+						<element type="DTA">7</element>
+						<element type="EPC">3</element>
+					</finding>
+					<finding activated="false">
+						<sum>138</sum>
+					</finding>
+				</opeTask>
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>288</sum>
+					</finding>
+					<finding activated="true">
+						<sum>7</sum>
+						<element type="DTA">1</element>
+						<element type="ALR">4</element>
+						<element type="EPC">4</element>
+					</finding>
+				</mpdTask>
+				<mpdTask split="2">
+					<finding activated="false">
+						<sum>3</sum>
+					</finding>
+				</mpdTask>
+				<mpdTask split="4">
+					<finding activated="false">
+						<sum>8</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="L00435">
+			<reportMonth month="2018-02">
+				<opeTask>
+					<finding activated="true">
+						<sum>15</sum>
+						<element type="PNR">2</element>
+						<element type="DTA">3</element>
+						<element type="ALR">1</element>
+					</finding>
+					<finding activated="false">
+						<sum>81</sum>
+					</finding>
+				</opeTask>
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>183</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2018-03">
+				<opeTask>
+					<finding activated="false">
+						<sum>145</sum>
+					</finding>
+					<finding activated="true">
+						<sum>27</sum>
+						<element type="ALR">2</element>
+						<element type="PNR">2</element>
+						<element type="DTA">1</element>
+					</finding>
+				</opeTask>
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>256</sum>
+					</finding>
+					<finding activated="true">
+						<sum>2</sum>
+						<element type="DTA">2</element>
+					</finding>
+				</mpdTask>
+				<mpdTask split="2">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+				<mpdTask split="4">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2018-04">
+				<opeTask>
+					<finding activated="true">
+						<sum>36</sum>
+						<element type="PNR">8</element>
+						<element type="CPI">1</element>
+						<element type="ALR">1</element>
+						<element type="DTA">2</element>
+					</finding>
+					<finding activated="false">
+						<sum>138</sum>
+					</finding>
+				</opeTask>
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>281</sum>
+					</finding>
+					<finding activated="true">
+						<sum>9</sum>
+						<element type="PNR">2</element>
+						<element type="DTA">4</element>
+					</finding>
+				</mpdTask>
+				<mpdTask split="4">
+					<finding activated="false">
+						<sum>8</sum>
+					</finding>
+				</mpdTask>
+				<mpdTask split="2">
+					<finding activated="false">
+						<sum>2</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2018-05">
+				<opeTask>
+					<finding activated="true">
+						<sum>31</sum>
+						<element type="DTA">5</element>
+						<element type="ALR">3</element>
+						<element type="EPC">1</element>
+						<element type="PNR">2</element>
+					</finding>
+					<finding activated="false">
+						<sum>86</sum>
+					</finding>
+				</opeTask>
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>210</sum>
+					</finding>
+				</mpdTask>
+				<mpdTask split="2">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="L00450">
+			<reportMonth month="2018-02">
+				<mpdTask split="1">
+					<finding activated="true">
+						<sum>3</sum>
+						<element type="DTA">2</element>
+					</finding>
+					<finding activated="false">
+						<sum>252</sum>
+					</finding>
+				</mpdTask>
+				<opeTask>
+					<finding activated="true">
+						<sum>25</sum>
+						<element type="PNR">3</element>
+						<element type="DTA">1</element>
+						<element type="ALR">1</element>
+					</finding>
+					<finding activated="false">
+						<sum>146</sum>
+					</finding>
+				</opeTask>
+				<mpdTask split="2">
+					<finding activated="false">
+						<sum>3</sum>
+					</finding>
+				</mpdTask>
+				<mpdTask split="4">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2018-03">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>282</sum>
+					</finding>
+					<finding activated="true">
+						<sum>2</sum>
+						<element type="DTA">1</element>
+						<element type="ALR">1</element>
+					</finding>
+				</mpdTask>
+				<opeTask>
+					<finding activated="true">
+						<sum>26</sum>
+						<element type="PNR">2</element>
+						<element type="ALR">3</element>
+						<element type="DTA">2</element>
+					</finding>
+					<finding activated="false">
+						<sum>137</sum>
+					</finding>
+				</opeTask>
+				<mpdTask split="2">
+					<finding activated="false">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+				<mpdTask split="4">
+					<finding activated="false">
+						<sum>8</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2018-04">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>232</sum>
+					</finding>
+					<finding activated="true">
+						<sum>1</sum>
+					</finding>
+				</mpdTask>
+				<opeTask>
+					<finding activated="true">
+						<sum>13</sum>
+						<element type="ALR">2</element>
+						<element type="EPC">1</element>
+					</finding>
+					<finding activated="false">
+						<sum>103</sum>
+					</finding>
+				</opeTask>
+			</reportMonth>
+			<reportMonth month="2018-05">
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>255</sum>
+					</finding>
+					<finding activated="true">
+						<sum>6</sum>
+						<element type="ALR">2</element>
+						<element type="DTA">2</element>
+						<element type="EPC">1</element>
+					</finding>
+				</mpdTask>
+				<opeTask>
+					<finding activated="true">
+						<sum>30</sum>
+						<element type="DTA">5</element>
+						<element type="PNR">2</element>
+						<element type="RAP">1</element>
+						<element type="ALR">2</element>
+						<element type="EPC">2</element>
+					</finding>
+					<finding activated="false">
+						<sum>148</sum>
+					</finding>
+				</opeTask>
+				<mpdTask split="4">
+					<finding activated="false">
+						<sum>6</sum>
+					</finding>
+				</mpdTask>
+				<mpdTask split="2">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="L00467">
+			<reportMonth month="2018-02">
+				<opeTask>
+					<finding activated="true">
+						<sum>33</sum>
+						<element type="DTA">7</element>
+						<element type="PNR">9</element>
+						<element type="ALR">7</element>
+						<element type="RAP">1</element>
+						<element type="EPC">1</element>
+					</finding>
+					<finding activated="false">
+						<sum>121</sum>
+					</finding>
+				</opeTask>
+				<mpdTask split="1">
+					<finding activated="true">
+						<sum>7</sum>
+						<element type="DTA">6</element>
+						<element type="ALR">3</element>
+						<element type="EPC">2</element>
+						<element type="CPI">2</element>
+					</finding>
+					<finding activated="false">
+						<sum>225</sum>
+					</finding>
+				</mpdTask>
+				<mpdTask split="4">
+					<finding activated="false">
+						<sum>8</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2018-03">
+				<opeTask>
+					<finding activated="true">
+						<sum>6</sum>
+						<element type="PNR">1</element>
+						<element type="ALR">2</element>
+						<element type="DTA">1</element>
+					</finding>
+					<finding activated="false">
+						<sum>24</sum>
+					</finding>
+				</opeTask>
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>55</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2018-04">
+				<opeTask>
+					<finding activated="true">
+						<sum>79</sum>
+						<element type="PNR">3</element>
+						<element type="ALR">15</element>
+						<element type="RAP">3</element>
+						<element type="DTA">52</element>
+						<element type="EPC">4</element>
+					</finding>
+					<finding activated="false">
+						<sum>69</sum>
+					</finding>
+				</opeTask>
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>285</sum>
+					</finding>
+					<finding activated="true">
+						<sum>292</sum>
+						<element type="DTA">190</element>
+						<element type="ALR">144</element>
+						<element type="RIB">2</element>
+						<element type="PNR">9</element>
+						<element type="FRM">32</element>
+						<element type="RAP">35</element>
+						<element type="EPC">11</element>
+						<element type="STR">3</element>
+						<element type="SPR">4</element>
+						<element type="CPI">1</element>
+					</finding>
+				</mpdTask>
+				<mpdTask split="2">
+					<finding activated="false">
+						<sum>3</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2018-05">
+				<opeTask>
+					<finding activated="false">
+						<sum>134</sum>
+					</finding>
+					<finding activated="true">
+						<sum>24</sum>
+						<element type="PNR">5</element>
+						<element type="DTA">6</element>
+						<element type="ALR">2</element>
+						<element type="EPC">1</element>
+						<element type="RAP">1</element>
+					</finding>
+				</opeTask>
+				<mpdTask split="1">
+					<finding activated="true">
+						<sum>9</sum>
+						<element type="DTA">5</element>
+						<element type="ALR">1</element>
+						<element type="EPC">1</element>
+						<element type="PNR">1</element>
+					</finding>
+					<finding activated="false">
+						<sum>301</sum>
+					</finding>
+				</mpdTask>
+				<mpdTask split="2">
+					<finding activated="false">
+						<sum>2</sum>
+					</finding>
+				</mpdTask>
+				<mpdTask split="4">
+					<finding activated="false">
+						<sum>8</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+		<aircraft msn="L00470">
+			<reportMonth month="2018-02">
+				<opeTask>
+					<finding activated="true">
+						<sum>22</sum>
+						<element type="PNR">1</element>
+						<element type="DTA">6</element>
+						<element type="ALR">5</element>
+						<element type="EPC">5</element>
+						<element type="CPI">1</element>
+						<element type="RAP">2</element>
+					</finding>
+					<finding activated="false">
+						<sum>140</sum>
+					</finding>
+				</opeTask>
+				<mpdTask split="1">
+					<finding activated="true">
+						<sum>9</sum>
+						<element type="PNR">3</element>
+						<element type="DTA">6</element>
+						<element type="ALR">2</element>
+					</finding>
+					<finding activated="false">
+						<sum>243</sum>
+					</finding>
+				</mpdTask>
+				<mpdTask split="4">
+					<finding activated="true">
+						<sum>1</sum>
+						<element type="DTA">1</element>
+						<element type="ALR">1</element>
+						<element type="EPC">1</element>
+					</finding>
+					<finding activated="false">
+						<sum>7</sum>
+					</finding>
+				</mpdTask>
+				<mpdTask split="2">
+					<finding activated="false">
+						<sum>2</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2018-03">
+				<opeTask>
+					<finding activated="true">
+						<sum>25</sum>
+						<element type="PNR">4</element>
+						<element type="ALR">5</element>
+						<element type="RAP">2</element>
+						<element type="DTA">7</element>
+					</finding>
+					<finding activated="false">
+						<sum>98</sum>
+					</finding>
+				</opeTask>
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>201</sum>
+					</finding>
+					<finding activated="true">
+						<sum>1</sum>
+						<element type="ALR">1</element>
+						<element type="EPC">1</element>
+					</finding>
+				</mpdTask>
+				<mpdTask split="4">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2018-04">
+				<opeTask>
+					<finding activated="true">
+						<sum>43</sum>
+						<element type="PNR">6</element>
+						<element type="ALR">9</element>
+						<element type="DTA">9</element>
+						<element type="RAP">1</element>
+					</finding>
+					<finding activated="false">
+						<sum>127</sum>
+					</finding>
+				</opeTask>
+				<mpdTask split="1">
+					<finding activated="false">
+						<sum>234</sum>
+					</finding>
+					<finding activated="true">
+						<sum>8</sum>
+						<element type="DTA">5</element>
+						<element type="PNR">1</element>
+					</finding>
+				</mpdTask>
+				<mpdTask split="4">
+					<finding activated="false">
+						<sum>4</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+			<reportMonth month="2018-05">
+				<opeTask>
+					<finding activated="true">
+						<sum>28</sum>
+						<element type="RAP">1</element>
+						<element type="DTA">15</element>
+						<element type="ALR">3</element>
+						<element type="EPC">1</element>
+						<element type="PNR">2</element>
+					</finding>
+					<finding activated="false">
+						<sum>92</sum>
+					</finding>
+				</opeTask>
+				<mpdTask split="1">
+					<finding activated="true">
+						<sum>9</sum>
+						<element type="DTA">2</element>
+						<element type="PNR">5</element>
+						<element type="ALR">1</element>
+					</finding>
+					<finding activated="false">
+						<sum>337</sum>
+					</finding>
+				</mpdTask>
+				<mpdTask split="2">
+					<finding activated="false">
+						<sum>8</sum>
+					</finding>
+				</mpdTask>
+			</reportMonth>
+		</aircraft>
+	</data>
+</dcSummary>
